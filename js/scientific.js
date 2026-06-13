@@ -1,1 +1,1 @@
-console.log("Scientific Calculator Page Loaded");
+console.log("Scientific calculator page loaded");

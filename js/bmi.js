@@ -1,1 +1,1 @@
-console.log("BMI Calculator Page Loaded");
+console.log("BMI calculator page loaded");

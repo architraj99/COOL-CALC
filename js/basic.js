@@ -1,1 +1,1 @@
-console.log("Basic Calculator Page Loaded");
+console.log("Basic calculator page loaded");
