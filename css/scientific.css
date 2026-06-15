@@ -7,7 +7,7 @@
 body{
     min-height:100vh;
     font-family:Arial,sans-serif;
-    background:#020617;
+    background:linear-gradient(#1f4fd3, #05225f);
     color:white;
     padding:30px;
 }
@@ -20,7 +20,7 @@ header{
 
 .back-link{
     text-decoration:none;
-    color:#60a5fa;
+    color:#e0e0e0;
 }
 
 header h1{

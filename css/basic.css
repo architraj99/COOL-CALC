@@ -7,7 +7,7 @@
 body{
     min-height:100vh;
     font-family:Arial,sans-serif;
-    background:#0f172a;
+    background:linear-gradient(#1f4fd3, #05225f);
     color:white;
     padding:30px;
 }
@@ -19,7 +19,7 @@ header{
 }
 
 .back-link{
-    color:#93c5fd;
+    color:#ffffff;
     text-decoration:none;
 }
 
@@ -66,7 +66,7 @@ button{
     cursor:pointer;
     font-size:1.1rem;
     background:#1e293b;
-    color:white;
+    color:rgb(255, 255, 255);
     transition:0.2s;
 }
 
