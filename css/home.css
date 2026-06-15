@@ -7,7 +7,7 @@
 body{
     font-family:Arial,sans-serif;
     min-height:100vh;
-    background:#07c6e7;
+    background:linear-gradient(#ebee35, #e0a82f, #af6e0d);
     overflow-x:hidden;
     position:relative;
 }
@@ -46,7 +46,7 @@ body{
 }
 
 .calc-card{
-    background:rgba(175, 129, 129, 0.918);
+    background:rgba(185, 223, 245, 0.918);
     padding:28px;
     transition:0.25s;
 }
@@ -97,5 +97,24 @@ body{
 
     .hero-content h1{
         font-size:3rem;
+    }
+}
+
+@media(max-width:600px) {
+
+    .hero{
+        padding:60px 0;
+    }
+
+    .hero-content h1{
+        font-size:2.4rem;
+    }
+
+    .hero-content p {
+        font-size:0.95rem;
+    }
+
+    .calc-card{
+        padding:22px;
     }
 }

@@ -33,8 +33,9 @@ main{
 }
 
 .calculator{
-    width:420px;
-    background:#0f172a;
+    width:100%;
+    max-width:420px;
+    background:#22396d;
     border-radius:20px;
     padding:20px;
     border:1px solid rgba(255,255,255,0.08);
@@ -51,6 +52,7 @@ main{
     padding:20px;
     font-size:2rem;
     overflow:hidden;
+    word-break:break-all;
 }
 
 .buttons{
@@ -94,5 +96,21 @@ button[data-action="equals"]:hover{
 
     .calculator{
         width:100%;
+    }
+}
+
+@media(max-width:600px) {
+
+    body{
+        padding:15px;
+    }
+
+    .display{
+        font-size:1.6rem;
+    }
+
+    button{
+        height:55px;
+        font-size:0.95rem;
     }
 }
