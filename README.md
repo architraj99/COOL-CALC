@@ -47,3 +47,4 @@ No extra setup
 
 
 ## screenshot
+<img width="863" height="375" alt="image" src="https://github.com/user-attachments/assets/5bbe8dce-ed93-4fe8-a2fb-eb906e413442" />
